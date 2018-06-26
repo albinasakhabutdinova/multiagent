@@ -1,0 +1,92 @@
+City graph: 
+49 116
+0: 0->1  1.00  0->7  1.00  
+1: 1->0  1.00  1->8  1.00  
+2: 2->3  1.00  2->9  1.00  
+3: 3->2  1.00  3->4  1.00  3->10  1.00  
+4: 4->3  1.00  4->11  1.00  
+5: 5->6  1.00  5->12  1.00  
+6: 6->5  1.00  
+7: 7->0  1.00  7->15  1.00  
+8: 8->1  1.00  8->9  1.00  
+9: 9->2  1.00  9->8  1.00  9->15  1.00  9->16  1.00  
+10: 10->3  1.00  10->11  1.00  
+11: 11->4  1.00  11->10  1.00  11->18  1.00  
+12: 12->5  1.00  12->13  1.00  12->19  1.00  
+13: 13->12  1.00  13->20  1.00  
+14: 14->21  1.00  
+15: 15->7  1.00  15->9  1.00  15->22  1.00  
+16: 16->9  1.00  16->17  1.00  
+17: 17->16  1.00  17->24  1.00  
+18: 18->11  1.00  18->19  1.00  18->25  1.00  
+19: 19->12  1.00  19->18  1.00  
+20: 20->13  1.00  20->27  1.00  
+21: 21->14  1.00  21->22  1.00  
+22: 22->15  1.00  22->21  1.00  22->28  1.00  
+23: 23->24  1.00  23->29  1.00  23->30  1.00  
+24: 24->17  1.00  24->23  1.00  
+25: 25->18  1.00  25->26  1.00  
+26: 26->25  1.00  26->27  1.00  26->32  1.00  
+27: 27->20  1.00  27->26  1.00  27->34  1.00  
+28: 28->22  1.00  28->29  1.00  
+29: 29->23  1.00  29->28  1.00  29->36  1.00  
+30: 30->23  1.00  30->31  1.00  
+31: 31->30  1.00  31->38  1.00  
+32: 32->26  1.00  32->39  1.00  
+33: 33->34  1.00  33->40  1.00  33->41  1.00  
+34: 34->27  1.00  34->33  1.00  
+35: 35->42  1.00  
+36: 36->29  1.00  36->37  1.00  36->43  1.00  
+37: 37->36  1.00  37->38  1.00  
+38: 38->31  1.00  38->37  1.00  38->39  1.00  38->44  1.00  
+39: 39->32  1.00  39->38  1.00  39->40  1.00  39->46  1.00  
+40: 40->33  1.00  40->39  1.00  40->47  1.00  
+41: 41->33  1.00  41->48  1.00  
+42: 42->35  1.00  42->43  1.00  
+43: 43->36  1.00  43->42  1.00  43->44  1.00  
+44: 44->38  1.00  44->43  1.00  44->45  1.00  
+45: 45->44  1.00  45->46  1.00  
+46: 46->39  1.00  46->45  1.00  
+47: 47->40  1.00  47->48  1.00  
+48: 48->41  1.00  48->47  1.00  
+
+Storage is located at: 24
+Total number of agents: 20
+Agent buyer_4 receives item from noone, agent is already located in storage
+Agent buyer_1 receives item from driver_0 at location 10 for the price of 0
+Agent buyer_3 receives item from driver_1 at location 15 for the price of 0
+Agent buyer_6 receives item from driver_2 at location 36 for the price of 0
+Agent driver_3 receives item from driver_0 at location 3 for the price of 0
+Agent buyer_5 receives item from driver_2 at location 29 for the price of 0
+Agent driver_5 receives item from driver_1 at location 17 for the price of 0
+Agent buyer_7 receives item from driver_6 at location 47 for the price of 0
+Agent driver_10 receives item from driver_6 at location 40 for the price of 0
+Agent driver_11 receives item from driver_6 at location 48 for the price of 0
+Agent driver_0 receives item from driver_11 at location 0 for the price of 0
+Agent driver_1 receives item from driver_0 at location 4 for the price of 2
+Agent driver_8 receives item from driver_6 at location 33 for the price of 2
+Agent driver_9 receives item from driver_2 at location 35 for the price of 2
+Agent driver_7 receives item from driver_5 at location 21 for the price of 3
+Agent buyer_2 receives item from driver_5 at location 14 for the price of 4
+Agent driver_6 receives item from driver_2 at location 19 for the price of 15
+Agent driver_4 receives item from driver_2 at location 13 for the price of 5
+Agent buyer_0 receives item from driver_2 at location 6 for the price of 6
+Agent driver_2 receives item from noone, because he visits storage
+Driver driver_10: path is [40, 39, 38, 37, 36, 29, 28, 22, 15, 7]
+Driver driver_5: path is [17, 16, 9, 15, 22, 21, 14, 21, 22, 15, 7]
+Driver driver_5 supplies agents: [driver_7, buyer_2]
+Driver driver_8: path is [33, 40, 39, 38, 37, 36, 29, 28]
+Driver driver_11: path is [48, 47, 40, 39, 38, 37, 36, 29, 28, 22, 15, 7, 0]
+Driver driver_11 supplies agents: [driver_0]
+Driver driver_1: path is [4, 3, 2, 9, 16, 17, 16, 9, 15, 7]
+Driver driver_1 supplies agents: [buyer_3, driver_5]
+Driver driver_9: path is [35, 42, 43, 36, 29, 28, 22, 15, 7, 0, 1]
+Driver driver_7: path is [21, 22, 28, 29, 36, 43, 44, 45]
+Driver driver_2: path is [6, 5, 12, 19, 18, 11, 4, 3, 2, 9, 16, 17, 24, 23, 29, 36, 37, 38, 39, 32, 26, 27, 20, 13, 12, 5, 6, 5, 12, 19, 18, 25, 26, 32, 39, 38, 44, 43, 42, 35, 42]
+Driver driver_2 supplies agents: [buyer_6, buyer_5, driver_9, driver_6, driver_4, buyer_0]
+Driver driver_6: path is [19, 12, 13, 20, 27, 34, 33, 40, 47, 48]
+Driver driver_6 supplies agents: [buyer_7, driver_10, driver_11, driver_8]
+Driver driver_4: path is [13, 12, 19, 18, 11, 4, 3, 2, 9, 15]
+Driver driver_3: path is [3, 4, 11, 18, 25, 26]
+Driver driver_0: path is [0, 1, 8, 9, 2, 3, 4, 3, 10, 11]
+Driver driver_0 supplies agents: [buyer_1, driver_3, driver_1]
