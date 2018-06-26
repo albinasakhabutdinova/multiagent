@@ -11,15 +11,15 @@ mvn -Pjade-main exec:java
 mvn -Pjade-agent exec:java
 ```
 
-map settings:
+**Map settings:**
 
 1 - number of vertices;
  
- other - edges
+ other - edges;
 
 
 
-env settings:
+**Environment settings:**
 
 1 - storage location
 
